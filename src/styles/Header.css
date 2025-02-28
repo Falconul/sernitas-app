@@ -1,0 +1,74 @@
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8); 
+  color: white;
+  height: 50px;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  padding: 5px;
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.logo img {
+  height: 50px; 
+  object-fit: contain; 
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px; /* Menü elemanları arasında boşluk */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s; /* Yumuşak geçiş efekti */
+  border-radius: 5px; /* Köşeleri yuvarlak yapmak için */
+}
+
+nav ul li a:hover {
+  background: #f8b400;
+  color: black; /* Arkaplan sarı olduğunda yazı siyah olacak */
+}
+
+/* Responsive tasarım için */
+@media (max-width: 768px) {
+  .header-container {
+      flex-direction: column; /* Logo ve menü alt alta gelecek */
+      align-items: center;
+  }
+
+  nav ul {
+      flex-direction: column; /* Menü elemanlarını dikey sıralama */
+      gap: 15px; /* Dikey boşluk */
+  }
+
+  nav ul li a {
+      font-size: 16px; /* Mobilde biraz daha küçük yazı */
+      padding: 8px 12px;
+  }
+}

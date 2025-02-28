@@ -1,0 +1,47 @@
+.home-page {
+    background-image: url("../assets/BackGround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; 
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .baslik {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; 
+  }
+  .strong{
+    text-align: left;
+
+  }
+  .mission-section {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  .baslik2{
+    text-align: left;
+  
+ 
+  }
+  h1, h2 {
+    color: #f8b400;
+  }
+  .mission-section ul li {
+    font-size: 1.1rem;
+    color: #f8f8f8;
+    line-height: 1.8;
+    margin-bottom: 10px; 
+    padding-left: 20px;
+    position: relative;
+    text-align: left; 
+  }

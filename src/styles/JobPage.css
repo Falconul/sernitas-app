@@ -1,0 +1,134 @@
+/* Genel stil ayarları */
+.job-page {
+    font-family: 'Roboto', sans-serif; /* Daha modern bir font */
+    background-color: #f4f7f6; /* Hafif gri tonlarında bir arka plan */
+    color: #333;
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Sol hizalama */
+    justify-content: flex-start;
+    margin-left: 20px; /* Sayfa kenarına boşluk ekleniyor */
+  }
+  
+  /* Başlıklar */
+  .job-page h1 {
+    font-size: 2.8rem;
+    color: #2a2a2a;
+    margin-bottom: 25px;
+    font-weight: 600; /* Başlıkları kalın yapalım */
+    text-align: left; /* Başlık sol hizalanacak */
+  }
+  
+  /* Genel paragraf */
+  .job-page p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    max-width: 800px;
+    text-align: left; /* Paragraf metni sol hizalanacak */
+    color: #555;
+  }
+  
+  /* Konum ve Başvuru Butonu */
+  .job-page .location {
+    font-weight: bold;
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Başvuru Butonu */
+  .job-page .apply-btn {
+    background-color: #0e76a8; /* LinkedIn'in mavi tonları */
+    color: white;
+    font-size: 1rem;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .job-page .apply-btn:hover {
+    background-color: #0073b1; /* Hover'da biraz daha koyu mavi */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    border: 2px solid #0073b1;
+  }
+  
+  /* İş Detayları Kutusu */
+  .job-page .job-details {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  /* İş Detay Başlıkları */
+  .job-page .job-details h2 {
+    color: #f8b400; /* Başlıkları sarı yapalım */
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* İş Detayları Listesi */
+  .job-page .job-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .job-page .job-details ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  /* Liste Simge (•) */
+  .job-page .job-details ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    font-size: 1.8rem;
+    color: #f8b400;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Responsive Düzenlemeler (Mobil uyum) */
+  @media (max-width: 768px) {
+    .job-page h1 {
+      font-size: 2.2rem;
+    }
+  
+    .job-page p {
+      font-size: 1rem;
+    }
+  
+    .job-page .apply-btn {
+      padding: 12px 25px;
+      font-size: 0.95rem;
+    }
+  
+    .job-page .job-details h2 {
+      font-size: 1.4rem;
+    }
+  
+    .job-page .job-details ul li {
+      font-size: 1rem;
+    }
+  }
+  
