@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sernitas-app/static/css/main.58bd5676.css",
+    "main.js": "/sernitas-app/static/js/main.88914589.js",
+    "static/js/453.b677392f.chunk.js": "/sernitas-app/static/js/453.b677392f.chunk.js",
+    "static/media/BackGround.jpg": "/sernitas-app/static/media/BackGround.69eb32e636cf4e09ba55.jpg",
+    "static/media/Sernitas.png": "/sernitas-app/static/media/Sernitas.89d02161f99681fca798.png",
+    "index.html": "/sernitas-app/index.html",
+    "main.58bd5676.css.map": "/sernitas-app/static/css/main.58bd5676.css.map",
+    "main.88914589.js.map": "/sernitas-app/static/js/main.88914589.js.map",
+    "453.b677392f.chunk.js.map": "/sernitas-app/static/js/453.b677392f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58bd5676.css",
+    "static/js/main.88914589.js"
+  ]
+}
